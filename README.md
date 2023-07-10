@@ -42,17 +42,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Techium will be the name of the company used across our web pages.
 - Sitemap of the project
 
-## Sitemap of the project 
-
-<p align="center">
-  <img src="file:///Users/abdel/holberton/holbertonschool-web_front_end/img/t1.png">
-</p>
-
-### Wireframe of Techium project 
-
-<p align="center">
-  <img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/4/3e4f9e2b3cb73d1768229e086f5da35337be5c6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230710%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230710T080617Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=10d1054378ff082b923f02e01c0a1b9481fa225c66080f37668db243cf1d4905">
-</p>
 
 ## Author 
 Youssef Saad 
