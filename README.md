@@ -45,7 +45,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Sitemap of the project 
 
 <p align="center">
-  <img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/4/4dec2ba9d84a0a55355b1c1e2de4c57854a2d35a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230710%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230710T080617Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=22431c373858ae1a260d607f6495bd8b1a5ae6098651e46cf4b82373e7bbef42">
+  <img src="file:///Users/abdel/holberton/holbertonschool-web_front_end/img/t1.png">
 </p>
 
 ### Wireframe of Techium project 
