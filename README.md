@@ -1,7 +1,7 @@
 <h1 align="center">Advanced HTML</h1>
 
 <p align="center">
-  <img src="/Users/abdel/holberton/holbertonschool-web_front_end/img/t0.gif">
+  <img src="Users/abdel/holberton/holbertonschool-web_front_end/img/t0.gif">
 </p>
 
 ## Novice
