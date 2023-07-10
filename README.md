@@ -1,7 +1,7 @@
 <h1 align="center">Advanced HTML</h1>
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:900/0*2blaR2l8ZqJ-HAaV.gif">
+  <img src="/Users/abdel/holberton/holbertonschool-web_front_end/img/t0.gif">
 </p>
 
 ## Novice
