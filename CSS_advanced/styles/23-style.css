@@ -125,6 +125,15 @@ html {
   .footer ul{
 	  text-align: right;
   }
+  .footer-address{
+	  color: var(--text-color);
+  }
+  .social-link{
+	  display: block;
+  }
+  .social-link > svg{
+	  fill: var(--text-color);
+  }
   .container{
 	  width: 960px;
 	  margin-left: auto;
