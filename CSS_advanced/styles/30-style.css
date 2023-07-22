@@ -366,6 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     padding: var(--footer-padding);
 }
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
