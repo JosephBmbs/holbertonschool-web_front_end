@@ -20,8 +20,6 @@
 
 Welcome to the **Advanced CSS** project for Novice developers. In this project, we will explore various advanced concepts and techniques in Cascading Style Sheets (CSS). By the end of this project, you will have a solid understanding of essential CSS topics, allowing you to create professional and visually appealing web designs.
 
-![David Dias - Senior Software Engineer at HomeX](https://example.com/david-dias-image.jpg)
-
 **Author**: David Dias  
 **Occupation**: Senior Software Engineer at HomeX
 
