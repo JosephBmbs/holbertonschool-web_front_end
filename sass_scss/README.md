@@ -60,5 +60,10 @@ sudo apt-get install -y nodejs
 sudo npm install -g npm@10
 sudo npm install -g sass@^1.82.0
 sass --version
-# Output: 1.82.0 compiled with dart2js 3.5.4
+# Output: 1.82.0 compiled with dart2js 3.5.4.
+```
 
+## 👤 Author
+
+**Youssef Saad**  
+[LinkedIn](https://www.linkedin.com/in/youssef-saad)
