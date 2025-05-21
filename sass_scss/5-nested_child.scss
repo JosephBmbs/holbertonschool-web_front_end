@@ -1,9 +1,8 @@
 /*Task 5: Nested child */
-body{
+body {
     color: #3D3D3D;
-
-
-    body > .red{
-        color: #FF0000;
+  
+    > .red {
+      color: #FF0000;
     }
-}
+  }
