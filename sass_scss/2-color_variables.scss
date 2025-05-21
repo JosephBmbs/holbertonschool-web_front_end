@@ -1,0 +1,15 @@
+/*Task 2: Colors */
+$main-text-color: #3D3D3D;
+$main-background-color: #6D6D6D;
+body {
+  color: $main-text-color;
+  background-color: $main-background-color;
+}
+
+p {
+  color: $main-text-color;
+}
+
+h2 {
+  color: $main-background-color;
+}
