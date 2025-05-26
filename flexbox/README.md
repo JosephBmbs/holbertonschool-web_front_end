@@ -1,9 +1,5 @@
 <p align="center">
-  <h1>Flexbox</h1>
-</p>
-
-
-<p align="center">
+ <h1>Flexbox</h1>
   <img src="https://miro.medium.com/v2/resize:fit:2000/1*W4QU1Fw9kDLEH2m-J9VGyw.gif" alt="Flexbox Banner" />
 </p>
 
@@ -81,5 +77,8 @@ By the end of this project, you should be able to:
 Task files begin at `article.html` and follow the quiz structure and requirements.
 
 ---
+
+## Author
+Youssef Saad
 
 Happy Flexboxing! 💪
