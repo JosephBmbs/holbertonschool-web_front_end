@@ -1,7 +1,9 @@
-<p align="center">
- <h1>Flexbox</h1>
+<div align="center">
+
+# Flexbox
+
   <img src="https://miro.medium.com/v2/resize:fit:2000/1*W4QU1Fw9kDLEH2m-J9VGyw.gif" alt="Flexbox Banner" />
-</p>
+</div>
 
 ## 🧪 Amateur  
 **By:** David Dias, Senior Software Engineer at HomeX  
