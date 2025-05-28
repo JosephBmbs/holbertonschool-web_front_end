@@ -3,89 +3,302 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Article - Techium</title>
+    <title>Homepage - Techium</title>
     <meta name="description" content="Description of the page less than 150 characters">
-    <link rel="icon" type="image/jpg" href="../images/favicon.jpg">
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="1-styles.css">
+    <link rel='stylesheet' href='styles.css'>
   </head>
   <body>
     <!-- Header -->
     <header class="header" data-section-theme="dark">
       <div class="container">
-        <div class="header-container">
-          <div class="header-logo">
-            <a href="/">
-              <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
-            </a>
-          </div>
-          <nav class="navbar-menu">
-            <ul class="nav">
-              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="#latest_news" class="nav-link">Latest news</a></li>
-              <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-          </nav>
+        <div class="header-logo">
+          <a href="#">
+            <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
+          </a>
         </div>
+        <nav class="navbar-menu">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#works" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#latest_news" class="nav-link">Latest news</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
     <!-- Main -->
     <main>
       <!-- Hero section -->
-      <header class="section-hero" data-section-theme="dark">
+      <section class="section-hero" data-section-theme="dark">
         <div class="container">
           <div class="section-body">
             <section class="section-inner">
-              <!-- Hero content here -->
+              <h2 class="section-title">We help you build your brand</h2>
+              <a href="#" class="button">Get Started</a>
             </section>
           </div>
         </div>
-      </header>
+      </section>
 
       <!-- Services section -->
-      <section id="services" class="section-services">
+      <section id="services" class="section">
         <div class="container">
-          <!-- Services content here -->
+          <header class="section-header">
+            <h2 class="section-title">Services</h2>
+            <p class="section-tagline">We work with you</p>
+          </header>
+          <div class="section-body">
+            <ul class="row">
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">Design & Concept</a></h3>
+                </div>
+              </li>
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">Digital Strategy</a></h3>
+                </div>
+              </li>
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">Content Strategy</a></h3>
+                </div>
+              </li>
+            </ul>
+            <ul class="row">
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">UX Design</a></h3>
+                </div>
+              </li>
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">Web Development</a></h3>
+                </div>
+              </li>
+              <li class="col-1-3">
+                <div class="card-services">
+                  <h3 class="card-title"><a href="#">Social Media</a></h3>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-- Works section -->
-      <section id="works" class="section-works">
+      <section id="works" class="section" data-section-theme="dark">
         <div class="container">
-          <!-- Works content here -->
+          <header class="section-header">
+            <h2 class="section-title">Works</h2>
+            <p class="section-tagline">Take a look at our portfolio</p>
+          </header>
+          <div class="section-body">
+            <ul class="row">
+              <li class="col-1-3">
+                <article class="card-work">
+                  <div class="card-outer">
+                    <div class="card-image">
+                      <img src="images/pic-work-01.jpg" alt="">
+                    </div>
+                    <div class="card-inner">
+                      <h3 class="card-title"><a href="#">Interior Design</a></h3>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-work">
+                  <div class="card-outer">
+                    <div class="card-image">
+                      <img src="images/pic-work-02.jpg" alt="">
+                    </div>
+                    <div class="card-inner">
+                      <h3 class="card-title"><a href="#">Web Development</a></h3>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-work">
+                  <div class="card-outer">
+                    <div class="card-image">
+                      <img src="images/pic-work-03.jpg" alt="">
+                    </div>
+                    <div class="card-inner">
+                      <h3 class="card-title"><a href="#">Personal Development</a></h3>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <!-- About section -->
-      <section id="about" class="section-about-us">
+      <!-- About Us section -->
+      <section id="about" class="section">
         <div class="container">
-          <!-- About content here -->
+          <header class="section-header">
+            <h2 class="section-title">About Us</h2>
+            <p class="section-tagline">Everything about us</p>
+          </header>
+          <div class="section-body">
+            <div class="row">
+              <div class="col-1-2">
+                <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
+              </div>
+              <div class="col-1-2">
+                <h3>Who are we</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+                <h3>Our culture</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+                <h3>How we work</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+              </div>
+            </div>
+          </div>
+          <div class="section-footer">
+            <a href="#" class="button">Learn more about us</a>
+          </div>
         </div>
       </section>
 
       <!-- Latest news section -->
-      <section id="latest_news" class="section-latest-news">
+      <section id="latest_news" class="section">
         <div class="container">
-          <!-- Latest news content here -->
+          <header class="section-header">
+            <h2 class="section-title">Latest News</h2>
+          </header>
+          <div class="section-body">
+            <ul class="row">
+              <li class="col-1-3">
+                <article class="card-blog">
+                  <div>
+                    <img src="images/pic-article-01.jpg" alt="" width="305" height="305">
+                  </div>
+                  <p class="card-category">Career</p>
+                  <h3><a href="#">Hoc loco tenere se Triarius non potuit.</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+                  <small>By Kelly D.</small>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-blog">
+                  <div>
+                    <img src="images/pic-article-02.jpg" alt="" width="305" height="305">
+                  </div>
+                  <p class="card-category">Career</p>
+                  <h3><a href="#">Quid securi etiam tamquam eu?</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+                  <small>By Kelly D.</small>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-blog">
+                  <div>
+                    <img src="images/pic-article-03.jpg" alt="" width="305" height="305">
+                  </div>
+                  <p class="card-category">Career</p>
+                  <h3><a href="#">Non dolere, inquam, istud quam vim habeat postea videro.</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+                  <small>By Kelly D.</small>
+                </article>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-- Testimonials section -->
-      <section id="testimonials" class="section-testimonial">
+      <section id="testimonials" class="section">
         <div class="container">
-          <!-- Testimonials content here -->
+          <header class="section-header">
+            <h2 class="section-title">Testimonials</h2>
+          </header>
+          <div class="section-body">
+            <ul class="row">
+              <li class="col-1-3">
+                <article class="card-testimonial">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita!</p>
+                  </blockquote>
+                  <cite>
+                    <span class="testimonial-name">Steven Smith</span>
+                    <span class="testimonial-position">CEO - Company</span>
+                  </cite>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-testimonial">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita!</p>
+                  </blockquote>
+                  <cite>
+                    <span class="testimonial-name">Jessica Brown</span>
+                    <span class="testimonial-position">Manager - Company</span>
+                  </cite>
+                </article>
+              </li>
+              <li class="col-1-3">
+                <article class="card-testimonial">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita!</p>
+                  </blockquote>
+                  <cite>
+                    <span class="testimonial-name">Michael Lee</span>
+                    <span class="testimonial-position">Developer - Company</span>
+                  </cite>
+                </article>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
       <!-- Contact section -->
-      <section id="contact" class="section-contact">
+      <section id="contact" class="section" data-section-theme="dark">
         <div class="container">
-          <!-- Contact content here -->
+          <header class="section-header">
+            <h2 class="section-title">Contact</h2>
+          </header>
+          <div class="section-body">
+            <form action="#" method="post" class="form-contact">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="button">Send</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -93,47 +306,7 @@
     <!-- Footer -->
     <footer class="footer" data-section-theme="dark">
       <div class="container">
-        <div class="row">
-          <div class="col-1-2">
-            <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
-            <address class="footer-address">
-              234 Washington Street<br>
-              Urbana, Illinois
-            </address>
-          </div>
-          <div class="col-1-2">
-            <ul class="social nav">
-              <li class="social-item nav-item">
-                <a href="https://www.facebook.com/HolbertonSchool/" class="social-link">
-                  <!-- Facebook SVG -->
-                </a>
-              </li>
-              <li class="social-item nav-item">
-                <a href="https://twitter.com/holbertonschool" class="social-link">
-                  <!-- Twitter SVG -->
-                </a>
-              </li>
-              <li class="social-item nav-item">
-                <a href="https://www.instagram.com/holbertonschool/" class="social-link">
-                  <!-- Instagram SVG -->
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-1-2">
-            <p class="footer-copyright">© 2020 Techium, made with ♥ by students at Holberton School.</p>
-          </div>
-          <div class="col-1-2">
-            <ul class="footer-nav nav">
-              <li class="footer-nav-item nav-item"><a href="#" class="footer-nav-link">Terms of use</a></li>
-              <li class="footer-nav-item nav-item"><a href="#" class="footer-nav-link">Privacy Policy</a></li>
-              <li class="footer-nav-item nav-item"><a href="#" class="footer-nav-link">Cookie Policy</a></li>
-            </ul>
-          </div>
-        </div>
+        <p>© 2024 Techium. All rights reserved.</p>
       </div>
     </footer>
   </body>
